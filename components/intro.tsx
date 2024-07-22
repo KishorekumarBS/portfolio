@@ -64,10 +64,8 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I'm Kishorekumar.</span> I'm a{" "}
 <span className="font-bold">software engineer</span> with a passion for{" "}
-<span className="font-bold">cybersecurity</span> and{" "}
-<span className="font-bold">data analysis</span>. I enjoy building{" "}
-<span className="italic">scalable and efficient systems</span>. My focus is{" "}
-<span className="underline">Python, Java, and JavaScript (React)</span>.
+<span className="font-bold">building scalable and efficient systems</span>. My focus is{" "}
+<span className="underline">MERN stack and backend frameworks from Python like Flask</span>.
       </motion.h1>
 
       <motion.div

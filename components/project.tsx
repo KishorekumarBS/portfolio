@@ -12,6 +12,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  liveUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -46,25 +47,57 @@ export default function Project({
               </li>
             ))}
           </ul>
+          {liveUrl && (
+            <a
+              href={liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-block bg-blue-500 text-white px-3 py-1 rounded-full"
+            >
+              Click Here Project is Live!
+            </a>
+          )}
         </div>
 
-        <Image
-          src={imageUrl}
-          alt="Project I worked on"
-          quality={95}
-          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
-        transition 
-        group-hover:scale-[1.04]
-        group-hover:-translate-x-3
-        group-hover:translate-y-3
-        group-hover:-rotate-2
+        {liveUrl ? (
+          <a href={liveUrl} target="_blank" rel="noopener noreferrer">
+            <Image
+              src={imageUrl}
+              alt="Project I worked on"
+              quality={95}
+              className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+              transition 
+              group-hover:scale-[1.04]
+              group-hover:-translate-x-3
+              group-hover:translate-y-3
+              group-hover:-rotate-2
 
-        group-even:group-hover:translate-x-3
-        group-even:group-hover:translate-y-3
-        group-even:group-hover:rotate-2
+              group-even:group-hover:translate-x-3
+              group-even:group-hover:translate-y-3
+              group-even:group-hover:rotate-2
 
-        group-even:right-[initial] group-even:-left-40"
-        />
+              group-even:right-[initial] group-even:-left-40"
+            />
+          </a>
+        ) : (
+          <Image
+            src={imageUrl}
+            alt="Project I worked on"
+            quality={95}
+            className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+            transition 
+            group-hover:scale-[1.04]
+            group-hover:-translate-x-3
+            group-hover:translate-y-3
+            group-hover:-rotate-2
+
+            group-even:group-hover:translate-x-3
+            group-even:group-hover:translate-y-3
+            group-even:group-hover:rotate-2
+
+            group-even:right-[initial] group-even:-left-40"
+          />
+        )}
       </section>
     </motion.div>
   );

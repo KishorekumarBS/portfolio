@@ -7,6 +7,7 @@ import cloudsecImg from "@/public/cloudsec.png";
 import testingImg from "@/public/testing.jpeg";
 import blogImg from "@/public/blog.png";
 import designIMG from "@/public/designpattern.png";
+import flashTypImg from "@/public/flashtype.png";
 
 export const links = [
   {
@@ -87,48 +88,65 @@ export const experiencesData = [
 
   export const projectsData = [
     {
-    title: "Design Pattern-Driven Online Marketplace",
-    description:
-    "Orchestrated end-to-end SDLC implementation for a dynamic Python-Django marketplace, applying SOLID principles.",
-    tags: ["Python", "JavaScript", "Django", "SOLID", "Design Patterns"],
-    imageUrl: designIMG,
+      title: "Flash Typing",
+      description:
+        "Developed an interactive typing speed test website using React, JavaScript (ES6), CSS, and API integration, providing real-time feedback and detailed results.",
+      tags: ["React", "JavaScript", "CSS", "API"],
+      imageUrl: flashTypImg,
+      liveUrl: "https://flashtypetest.vercel.app/", // Replace with actual live URL
     },
     {
-    title: "Blog API",
-    description:
-    "Developed a RESTful API for a blog using Python and Django, supporting CRUD operations and JSON responses.",
-    tags: ["Python", "Django", "REST", "PostgreSQL", "JWT"],
-    imageUrl: blogImg,
+      title: "Design Pattern-Driven Online Marketplace",
+      description:
+        "Orchestrated end-to-end SDLC implementation for a dynamic Python-Django marketplace, applying SOLID principles.",
+      tags: ["Python", "JavaScript", "Django", "SOLID", "Design Patterns"],
+      imageUrl: designIMG,
+      liveUrl: null, // This project is not live yet
     },
     {
-    title: "Automated Testing Framework",
-    description:
-    "Developed an automated testing framework using Python and Selenium to efficiently test web applications.",
-    tags: ["Python", "Selenium", "Jenkins", "CI/CD", "Testing"],
-    imageUrl: testingImg,
+      title: "Blog API",
+      description:
+        "Developed a RESTful API for a blog using Python and Django, supporting CRUD operations and JSON responses.",
+      tags: ["Python", "Django", "REST", "PostgreSQL", "JWT"],
+      imageUrl: blogImg,
+      liveUrl: null, // This project is not live yet
     },
     {
-    title: "Cybersecurity Attack Analysis",
-    description:
-    "Analyzed session hijacking, CSRF, and packet sniffing, enhancing threat awareness and response time.",
-    tags: ["Cybersecurity", "Threat Analysis", "Incident Response"],
-    imageUrl: csrfImg,
+      title: "Automated Testing Framework",
+      description:
+        "Developed an automated testing framework using Python and Selenium to efficiently test web applications.",
+      tags: ["Python", "Selenium", "Jenkins", "CI/CD", "Testing"],
+      imageUrl: testingImg,
+      liveUrl: null, // This project is not live yet
     },
     {
-    title: "Cloud Security Fundamentals Project",
-    description:
-    "Participated in designing a secure cloud environment on AWS, emphasizing privacy and data protection.",
-    tags: ["Cloud Security", "AWS", "Access Control", "Encryption", "DevOps"],
-    imageUrl: cloudsecImg,
+      title: "Cybersecurity Attack Analysis",
+      description:
+        "Analyzed session hijacking, CSRF, and packet sniffing, enhancing threat awareness and response time.",
+      tags: ["Cybersecurity", "Threat Analysis", "Incident Response"],
+      imageUrl: csrfImg,
+      liveUrl: null, // This project is not live yet
     },
     {
-    title: "Wireshark Traffic Analysis",
-    description:
-    "Utilized Wireshark for in-depth analysis of network traffic, dissecting protocols and implementing security measures.",
-    tags: ["Wireshark", "Network Security", "Incident Response", "Threat Mitigation"],
-    imageUrl: wiresharkImg,
+      title: "Cloud Security Fundamentals Project",
+      description:
+        "Participated in designing a secure cloud environment on AWS, emphasizing privacy and data protection.",
+      tags: ["Cloud Security", "AWS", "Access Control", "Encryption", "DevOps"],
+      imageUrl: cloudsecImg,
+      liveUrl: null, // This project is not live yet
     },
-    ] as const;
+    {
+      title: "Wireshark Traffic Analysis",
+      description:
+        "Utilized Wireshark for in-depth analysis of network traffic, dissecting protocols and implementing security measures.",
+      tags: ["Wireshark", "Network Security", "Incident Response", "Threat Mitigation"],
+      imageUrl: wiresharkImg,
+      liveUrl: null, // This project is not live yet
+    },
+    
+  ] as const;
+  
+  
 
 export const skillsData = [
   "HTML",
@@ -136,6 +154,7 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "Node.js",
   "Next.js",
   "Node.js",
   "Git",
