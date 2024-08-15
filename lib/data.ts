@@ -8,6 +8,7 @@ import testingImg from "@/public/testing.jpeg";
 import blogImg from "@/public/blog.png";
 import designIMG from "@/public/designpattern.png";
 import flashTypImg from "@/public/flashtype.png";
+import blog from "@/public/BlogMERN.png";
 
 export const links = [
   {
@@ -88,12 +89,20 @@ export const experiencesData = [
 
   export const projectsData = [
     {
+      title: "MERN Stack Blog",
+      description:
+        "Engineered a full-stack blog platform using the MERN stack. Features include user authentication, rich text editing, and responsive design.",
+      tags: ["React", "Node.js", "MongoDB", "Express", "JWT", "RESTful API"],
+      imageUrl: blog, 
+      liveUrl: "https://blog-mern-ten.vercel.app/",
+    },
+    {
       title: "Flash Typing",
       description:
         "Developed an interactive typing speed test website using React, JavaScript (ES6), CSS, and API integration, providing real-time feedback and detailed results.",
       tags: ["React", "JavaScript", "CSS", "API"],
       imageUrl: flashTypImg,
-      liveUrl: "https://flashtypetest.vercel.app/", // Replace with actual live URL
+      liveUrl: "https://flashtypetest.vercel.app/", 
     },
     {
       title: "Design Pattern-Driven Online Marketplace",
