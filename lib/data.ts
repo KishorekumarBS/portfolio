@@ -43,7 +43,7 @@ export const links = [
 
 export const experiencesData = [
   {
-  title: "Instructor - CyberSecurity Certificate, Beginner Program",
+  title: "Software Intern, & Security Instructor",
   location: "California State University, Fresno",
   description:
   "I taught cybersecurity principles, focusing on beginner-level concepts and software architecture. I guided students through hands-on modules, empowering them with practical skills in Python, cloud computing, and legal aspects for future career success.",
@@ -54,18 +54,11 @@ export const experiencesData = [
   title: "Software Engineer I Intern",
   location: "Cognizant Technology Solutions, Chennai, India",
   description:
-  "I acquired comprehensive web technology skills, including HTML, CSS, JavaScript, Python, Java, and data structures. I successfully executed and led a full-stack project using Django, MongoDB, and Python, increasing user satisfaction by 25%.",
+  "I acquired comprehensive web technology skills, including HTML, CSS, JavaScript, Python, Java, and data structures. I successfully executed and led a full-stack project using Spring-boot, MongoDB, and Java, increasing user satisfaction by 25%.",
   icon: React.createElement(FaLaptopCode),
-  date: "Feb 2022 - July 2022",
+  date: "Aug 2021 - July 2022",
   },
-  {
-  title: "Junior Software DevOps",
-  location: "Ruchi Soya Industries Ltd, Tiruvallur, India",
-  description:
-  "I gained exposure to various web technologies and learned to use modern development tools like Docker and AWS for deploying and managing web applications. I contributed to a cloud-based project using Docker, AWS, and Python, increasing system efficiency by 15%.",
-  icon: React.createElement(FaServer),
-  date: "Aug 2021 - Dec 2021",
-  },
+
   ]as const;
 
   export const educationData = [
