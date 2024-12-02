@@ -62,10 +62,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi, I'm Kishorekumar.</span> I'm a{" "}
-<span className="font-bold">software engineer</span> with a passion for{" "}
-<span className="font-bold">building scalable and efficient systems</span>. My focus is{" "}
-<span className="underline">MERN stack and backend frameworks from Python like Flask</span>.
+       <span className="font-bold">Hi, I'm Kishorekumar.</span> I'm a{" "}
+<span className="font-bold">cybersecurity enthusiast and engineer</span> with a passion for{" "}
+<span className="font-bold">building secure, scalable, and efficient systems</span>. My focus is{" "}
+<span className="underline">penetration testing, network security, and backend frameworks from Java like SpringBoot</span>.
       </motion.h1>
 
       <motion.div
