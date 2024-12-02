@@ -43,12 +43,12 @@ export const links = [
 
 export const experiencesData = [
   {
-  title: "Software Intern, & Security Instructor",
-  location: "California State University, Fresno",
-  description:
-  "I taught cybersecurity principles, focusing on beginner-level concepts and software architecture. I guided students through hands-on modules, empowering them with practical skills in Python, cloud computing, and legal aspects for future career success.",
-  icon: React.createElement(FaUserTie),
-  date: "Jan 2024 - Present",
+    title: "Security Intern & Cybersecurity Instructor",
+    location: "California State University, Fresno",
+    description:
+    "I taught cybersecurity principles, focusing on beginner-level concepts and secure software practices. I guided students through hands-on modules involving intrusion detection systems (IDS) and penetration testing techniques. Additionally, I worked on implementing Snort IDS in Fresno State's environment, analyzing network traffic and leveraging OpenSearch for log analysis, providing insights into potential threats.",
+    icon: React.createElement(FaUserTie),
+    date: "Jan 2024 - Present",
   },
   {
   title: "Software Engineer I Intern",
